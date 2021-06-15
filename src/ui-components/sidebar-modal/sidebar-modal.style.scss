@@ -1,0 +1,71 @@
+.sidebar-modal {
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: sidebarAnimation 0.2s 1;
+  z-index: 1000;
+
+  .sidebar {
+    height: 100%;
+    position: fixed;
+    &__logo {
+      margin-top: 5px !important;
+      font-size: 15px !important;
+    }
+
+    &__navlinks {
+      width: 80%;
+      margin-top: 1rem !important;
+      margin-left: 30px;
+      gap: 5px !important;
+    }
+  }
+}
+
+@keyframes sidebarAnimation {
+  0% {
+    transform: translateX(-220px);
+  }
+
+  20% {
+    transform: translateX(-200px);
+  }
+  40% {
+    transform: translateX(-150px);
+  }
+  60% {
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(-50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 698px) {
+  .sidebar-modal {
+    width: 45%;
+  }
+}
+
+@media (min-width: 698px) {
+  .sidebar-modal {
+    width: 40%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1024px) {
+  .sidebar-modal {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sidebar-modal {
+    display: none;
+  }
+}

@@ -1,0 +1,29 @@
+.button {
+  padding: 8px 12px;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+
+  &:hover {
+    transition: all 0.3s;
+    box-shadow: 0 1px 5px 1px #777;
+  }
+}
+
+.button__close {
+  background-color: #dc3545;
+}
+
+.button__delete {
+  background-color: #ffb822;
+}
+
+.button__save {
+  background-color: #0abb87;
+}

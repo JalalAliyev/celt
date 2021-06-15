@@ -1,0 +1,17 @@
+.dashboard-body {
+  width: 85%;
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

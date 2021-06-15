@@ -1,0 +1,22 @@
+.result-message {
+  width: 60px;
+  height: 27px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+
+  small {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+
+.passed {
+  background-color: #1bc5bd;
+}
+
+.failed {
+  background-color: #f64e60;
+}

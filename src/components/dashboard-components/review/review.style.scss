@@ -1,0 +1,32 @@
+.review {
+  width: 100%;
+  height: 100%;
+  padding-top: 5px;
+
+  &__title {
+    text-align: center;
+    color: rgba(black, 0.8);
+  }
+
+  &__body {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &-elem {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+
+      h4 {
+        color: rgba(black, 0.9);
+      }
+
+      p {
+        font-weight: 650;
+        color: rgba(black, 0.3);
+      }
+    }
+  }
+}

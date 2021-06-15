@@ -1,0 +1,35 @@
+.body-element {
+  min-width: 300px;
+  max-width: 380px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+
+  &__icon {
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg {
+      color: rgba(blue, 0.85) !important;
+      font-size: 25px;
+    }
+  }
+
+  &__link {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ef7100;
+
+    a {
+      margin-bottom: 5px;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600;
+      color: white;
+    }
+  }
+}

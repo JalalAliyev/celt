@@ -1,0 +1,13 @@
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(black, 0.3);
+  z-index: 100;
+}
+
+.backdrop-hidden {
+  background-color: transparent !important;
+}
